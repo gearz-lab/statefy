@@ -1,0 +1,23 @@
+{
+  "name": "statefy",
+  "version": "1.0.2",
+  "description": "Transparently handle props and state for ReactJS components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gearz-lab/statefy"
+  },
+  "keywords": [
+    "reactjs",
+    "react"
+  ],
+  "author": "= <andrerpena@gmail.com> (http://andrerpena.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gearz-lab/statefy/issues"
+  },
+  "homepage": "https://github.com/gearz-lab/statefy"
+}
