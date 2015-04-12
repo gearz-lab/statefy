@@ -102,3 +102,8 @@ You can even assign an event handler to deal with any property change, the event
               }.bind(this)
               }
       />
+      
+License
+---
+
+Statefy is provided under the [MIT](https://github.com/gearz-lab/statefy/blob/master/LICENSE) license.
