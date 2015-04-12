@@ -1,10 +1,14 @@
-var Statify = {
+var Statefy = {
 
     getInitialState: function () {
         return {};
     },
-    // 'get' is used to get properties that may be stored in 'state' or in 'props'
-    // this happens when a value is defined throw a 'setter'
+
+    /**
+     * 'get' is used to get properties regardless of whether it's declared in 'state' or in 'props'.
+     * @param propName
+     * @returns {*}
+     */
     get: function (propName) {
         return this.state.hasOwnProperty(propName)
             ? this.state[propName]
@@ -26,6 +30,7 @@ var Statify = {
     set: function (propName, newValue, context) {
         var prevDef = false, isOriginalNewValue = true;
 
+        // if the prop name is "value", the change event name will be simply "onChange"
         var name = propName == "value" ? "" : propName[0].toUpperCase() + propName.substr(1);
         var specificEventName = name + "Change";
 
@@ -128,4 +133,4 @@ var Statify = {
     }
 };
 
-module.exports = Statify;
+module.exports = Statefy;
