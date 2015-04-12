@@ -1,6 +1,6 @@
 {
   "name": "statefy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Transparently handle props and state for ReactJS components",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,10 @@
     "reactjs",
     "react"
   ],
-  "author": "= <andrerpena@gmail.com> (http://andrerpena.net/)",
+  "authors": [
+    "Miguel Angelo dos Santos Bicudo",
+    "André Pena"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gearz-lab/statefy/issues"

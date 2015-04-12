@@ -103,6 +103,24 @@ You can even assign an event handler to deal with any property change, the event
               }
       />
       
+Installation
+---
+
+If you are using CommonJS:
+
+Install by `npm`:
+
+    npm install statefy
+    
+Now...
+
+    var statefy = require("statefy");
+    const Textbox = React.createClass({
+        mixins: [statefy]
+    });
+    
+Or, alternatively, just [download the mixin](https://github.com/gearz-lab/statefy/blob/master/index.js) and use it as described above.
+      
 License
 ---
 
